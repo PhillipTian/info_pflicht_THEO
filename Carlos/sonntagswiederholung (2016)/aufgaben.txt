@@ -1,0 +1,159 @@
+
+Link zur Vorlesungswebseite:
+
+	https://www7.in.tum.de/um/courses/theo/ss2016/
+
+Abkürzungen:
+
+	f = Overheadfolien auf meiner Webseite
+	V = Seiten im Vorlesungsskript
+	H = Hausaufgabe
+	T = Tutoraufgabe
+	K = Knobelaufgabe
+	E = Aufgabe in der letzten Endtermklausur
+	* = schwere Aufgabe
+
+
+================================================================
+Grundlagen
+================================================================
+
+	1. Formale Sprachen
+
+		f01, V: 9-12
+		Aufgaben: H1.1, H1.2, T1.1*, H2.1*
+
+================================================================
+Reguläre Sprachen (RLs)
+================================================================
+
+	2. DFAs
+
+		f02, V: 19-21
+		Aufgaben: H1.3, T1.2 (b), H2.2
+
+	3. NFAs
+
+		f03, V: 26-29
+		Aufgaben: H1.4, T1.2 (a)
+
+	4. REs
+
+		f04, V: 40-46
+		Aufgaben: H2.3, K2.1, H5.2
+
+	5. Satz von Kleene
+
+		f05, V: 47-50
+		Aufgaben: H3.2 (a)
+
+	6. Potenzmengenkonstruktion
+
+		f07, V: 30-33
+		H3.1, H3.2 (b)
+
+	7. Pumping-Lemma für RLs
+
+		f08 + txt-Datei, V: 67-76
+		T3.1 (a,b), H4.2, E3
+
+	8. Abschlusseigenschaften regulärer Sprachen
+
+		V: 56-61
+		T3.2 (a), H4.4 (b), H4.1, H4.3, E2
+
+	9. Ardens Lemma
+
+		f09, V: 89-95
+		T5.2, H6.2
+
+	10. Minimierung von DFAs
+
+		f10, V: 102-121
+		T4.2, H5.4, T4.3, H5.3
+
+================================================================
+Kontextfreie Sprachen (CFLs)
+================================================================
+
+	11. CFGs
+
+		f11, V: 127-151
+		T5.1 (a), H6.4 (a), E3
+
+	12. Pumping-Lemma für CFLs
+
+		f12 + txt-Datei, V: 160-166
+		T6.2, H7.2
+
+	13. CNF und nützliche Symbole
+		
+		f14, V: 152-159, 170-176
+		T6.1, H7.4
+
+	14. CYK-Algorithmus
+
+		f13, V: 177-181
+		T7.2, H8.1
+
+	15. PDAs
+
+		f15, V: 185-211
+		H8.3
+
+================================================================
+Berechenbarkeit und Entscheidbarkeit
+================================================================
+
+	16. TMs
+
+		f16, V: 225-239
+		H9.1*, H9.4*, T9.1*
+
+	17. LOOP, WHILE, GOTO und Ackermannfunktion
+
+		f17, V: 244-257, 284-292
+		T10.1, H11.3
+
+	18. PR-Funktionen
+
+		f18, V: 258-283
+		H11.4, T11.1, T11.2, T11.3, E6
+
+	19. Entscheidbarkeit und der Satz von Rice
+
+		V: 293-322
+		T12.1, H12.5, E7
+
+	20. PCP
+
+		V: 323- 325
+		H12.1
+
+================================================================
+Komplexitätstheorie
+================================================================
+
+	21. P, NP, NP-hart und NP-vollständig
+
+		V: ab 336
+		H12.3, H12.4*, E8
+
+		Schöne Aufgaben aus Altklausuren: 
+
+			- Endterm 2010, Aufgabe 6
+			- Endterm 2011, Aufgabe 4
+			- Endterm 2012, Aufgabe 6
+
+		Erinnerung: 
+
+		Man kann zeigen, dass eine Sprache A NP-hart ist, 
+		wenn man ein NP-vollständiges Problem B auf sie 
+		reduziert: B ≤_p A.
+
+		Neue Info: 
+
+		Man kann zeigen, dass eine Sprache A in NP ist, 
+		auch indem man sie auf ein NP-vollständiges 
+		Problem B reduziert: A ≤_p B.
+
